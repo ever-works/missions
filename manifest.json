@@ -1,0 +1,39 @@
+{
+  "$schema": "./schema/mission-template.schema.json",
+  "version": 1,
+  "generatedBy": "manual",
+  "templates": [
+    {
+      "slug": "saas-directory-launch",
+      "title": "Launch a SaaS directory",
+      "summary": "One-shot mission to take a directory niche from idea to published awesome-<niche>-website + awesome-<niche>-data pair.",
+      "type": "ONE_SHOT",
+      "tags": ["directory", "launch", "awesome-list"],
+      "missionPath": "templates/saas-directory-launch/mission.yml",
+      "briefPath": "templates/saas-directory-launch/BRIEF.md",
+      "readmePath": "templates/saas-directory-launch/README.md"
+    },
+    {
+      "slug": "content-engine",
+      "title": "Content engine — weekly long-form posts",
+      "summary": "Scheduled mission that publishes one researched, on-brand long-form post per week from a defined editorial calendar.",
+      "type": "SCHEDULED",
+      "schedule": "0 9 * * 1",
+      "tags": ["content", "blog", "seo", "weekly"],
+      "missionPath": "templates/content-engine/mission.yml",
+      "briefPath": "templates/content-engine/BRIEF.md",
+      "readmePath": "templates/content-engine/README.md"
+    },
+    {
+      "slug": "weekly-trend-digest",
+      "title": "Weekly trend digest",
+      "summary": "Scheduled mission that publishes a curated weekly digest of what changed in a chosen domain — releases, papers, posts.",
+      "type": "SCHEDULED",
+      "schedule": "0 7 * * 5",
+      "tags": ["newsletter", "digest", "weekly", "research"],
+      "missionPath": "templates/weekly-trend-digest/mission.yml",
+      "briefPath": "templates/weekly-trend-digest/BRIEF.md",
+      "readmePath": "templates/weekly-trend-digest/README.md"
+    }
+  ]
+}

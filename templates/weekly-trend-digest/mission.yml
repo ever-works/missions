@@ -1,0 +1,18 @@
+slug: weekly-trend-digest
+title: Weekly trend digest
+summary: Scheduled mission that publishes a curated weekly digest of what changed in a chosen domain — releases, papers, posts.
+type: SCHEDULED
+schedule: "0 7 * * 5"
+autoBuildWorks: false
+outstandingIdeasCap: 8
+guardrailsOverride:
+  maxConcurrentBuilds: 1
+  requireHumanApprovalToPublish: true
+suggestedAgentTemplates:
+  - starter-researcher
+  - starter-copywriter
+tags:
+  - newsletter
+  - digest
+  - weekly
+  - research

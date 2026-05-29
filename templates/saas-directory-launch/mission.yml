@@ -1,0 +1,19 @@
+slug: saas-directory-launch
+title: Launch a SaaS directory
+summary: One-shot mission to take a directory niche from idea to published `awesome-<niche>-website` + `awesome-<niche>-data` pair.
+type: ONE_SHOT
+schedule: null
+autoBuildWorks: false
+outstandingIdeasCap: 25
+guardrailsOverride:
+  maxConcurrentBuilds: 1
+  requireHumanApprovalToPublish: true
+suggestedAgentTemplates:
+  - starter-pm
+  - starter-researcher
+  - starter-curator
+  - starter-copywriter
+tags:
+  - directory
+  - launch
+  - awesome-list

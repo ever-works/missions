@@ -1,0 +1,19 @@
+slug: content-engine
+title: Content engine — weekly long-form posts
+summary: Scheduled mission that publishes one researched, on-brand long-form post per week from a defined editorial calendar.
+type: SCHEDULED
+schedule: "0 9 * * 1"
+autoBuildWorks: false
+outstandingIdeasCap: 12
+guardrailsOverride:
+  maxConcurrentBuilds: 1
+  requireHumanApprovalToPublish: true
+suggestedAgentTemplates:
+  - starter-pm
+  - starter-researcher
+  - starter-copywriter
+tags:
+  - content
+  - blog
+  - seo
+  - weekly
