@@ -104,4 +104,4 @@ The platform's `Mission` entity is defined in
 
 ## License
 
-Private. Internal Ever Works use only for now.
+[Apache 2.0](LICENSE)
