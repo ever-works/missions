@@ -7,11 +7,7 @@ description: >-
 
 # Build on an open-source app
 
-> **Catalog brief** (added 2026-09-17 — EXT-13). This is the `BRIEF.md` the `ever-works/missions` catalog expects
-> beside `mission.yml`. The template's **runtime** manifest and its human-facing README live in the standalone seed
-> repository `ever-works/build-on-open-source-app-mission-template`
-> (`mission-template-draft/.works/mission.yml` and `mission-template-draft/README.md` in this repo, published by
-> APW-08 T41), because that is the layout the platform reads. Nothing here replaces either file.
+> The template the platform reads (its runtime manifest and full README) lives in [`ever-works/build-on-open-source-app-mission-template`](https://github.com/ever-works/build-on-open-source-app-mission-template).
 
 **For:** someone who already runs an open-source application as an App Work and wants it to become _their_ product
 for _their_ business, without a rewrite and without an open-ended budget.
@@ -35,5 +31,4 @@ deploy.
 **Before you start.** Fill in the Mission's product brief, make sure the App Work has a Fleet node or an isolated run
 environment set up, and review the App spec's checks so you can admit them for your own machines.
 
-**Full detail:** the template's `README.md` in `ever-works/build-on-open-source-app-mission-template` (source:
-`docs/specs/features/app-works/APW-08-evolve-loop/mission-template-draft/README.md`).
+**Full detail:** the template's `README.md` in [`ever-works/build-on-open-source-app-mission-template`](https://github.com/ever-works/build-on-open-source-app-mission-template).

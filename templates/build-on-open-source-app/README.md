@@ -1,12 +1,7 @@
 # Build on an open-source app
 
-> **Catalog README** (added 2026-09-17 — EXT-13). The catalog's layout is
-> `templates/<slug>/{mission.yml,BRIEF.md,README.md}` plus a manifest row; this file is the README for a
-> human-facing listing under `ever-works/missions`. The template's **runtime** content — the `.works/mission.yml`
-> the platform actually reads, its `prompts/`, and the long-form README — lives in the standalone seed repository
-> `ever-works/build-on-open-source-app-mission-template`, sourced from
-> `docs/specs/features/app-works/APW-08-evolve-loop/mission-template-draft/` in this repository and published by
-> APW-08 T41. Nothing here replaces either file.
+> This is the catalog listing. The template the platform actually reads (its `.works/mission.yml`, prompts and
+> full README) lives in [`ever-works/build-on-open-source-app-mission-template`](https://github.com/ever-works/build-on-open-source-app-mission-template).
 
 ## What this template is
 
@@ -42,8 +37,6 @@ by pull request; the template never edits it directly.
 
 ## Related files
 
-- `mission.yml` — the catalog entry for this listing.
-- `BRIEF.md` — the one-page brief.
-- `manifest-row.json` — the row to add to the catalog's `manifest.json`.
-- Runtime manifest and full README: `ever-works/build-on-open-source-app-mission-template`
-  (source: `docs/specs/features/app-works/APW-08-evolve-loop/mission-template-draft/`).
+- `mission.yml`: the catalog entry for this listing.
+- `BRIEF.md`: the one-page brief.
+- Runtime manifest and full README: [`ever-works/build-on-open-source-app-mission-template`](https://github.com/ever-works/build-on-open-source-app-mission-template).
