@@ -1,0 +1,18 @@
+# Catalog listing for the "Build on an open-source app" Mission template.
+# The runtime manifest the platform reads (defaults, appWork, suggestedGoals) lives in
+# https://github.com/ever-works/build-on-open-source-app-mission-template (.works/mission.yml);
+# this file carries only the keys this catalog's schema allows.
+slug: build-on-open-source-app
+title: Build on an open-source app
+type: SCHEDULED
+schedule: '0 8 * * 1'
+summary: >-
+  Build my own product for my business on top of an open-source app I already run: every Monday it files up to two
+  small, budgeted, approval-gated changes on an App Work and follows each one until it is live.
+autoBuildWorks: false
+suggestedAgentTemplates:
+  - starter-coder
+tags:
+  - app-works
+  - open-source
+  - weekly
