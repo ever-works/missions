@@ -1,0 +1,32 @@
+# Catalog-conformant copy of the "Build on an open-source app" Mission template (added 2026-09-17 — EXT-13).
+#
+# This file is the shape the `ever-works/missions` catalog requires
+# (`templates/<slug>/{mission.yml,BRIEF.md,README.md}` plus a manifest row; schema
+# `schema/mission-template.schema.json`): `slug`, `title`, `type`, `summary` and `schedule` are required, and
+# `version`, `defaults`, `kb`, `appWork`, `suggestedGoals` are **additional properties the catalog schema rejects**.
+#
+# It is published **alongside** the runtime manifest at `mission-template-draft/.works/mission.yml` (which lives in
+# the standalone seed repository the platform actually reads), never instead of it. The runtime keys this catalog
+# shape cannot carry — `defaults.guardrails`, `defaults.outputMode`, `defaults.taskOutput`, `kb.seedPaths`,
+# `appWork.recommendedAppSpec` and `suggestedGoals` — stay in the standalone repository; the `summary` and
+# `BRIEF.md` below describe them for a human reader.
+#
+# APW-08 T41 — checked against the catalog's own schema (vendored at `../../schema/mission-template.schema.json`, from
+# `ever-works/missions` commit 1cfb38b7) by `packages/agent/src/missions/__tests__/mission-template-defaults.spec.ts`.
+# `suggestedAgentTemplates` are slugs from `ever-works/agents` (strings, per that schema): `starter-coder` is the
+# catalog's coding Agent. The platform's own `evolve-app` Agent template (built in, not in `ever-works/agents`) is what
+# a change request on an App Work offers when no Agent may commit yet.
+slug: build-on-open-source-app
+title: Build on an open-source app
+type: SCHEDULED
+schedule: '0 8 * * 1'
+summary: >-
+  Build my own product for my business on top of an open-source app I already run: every Monday it files up to two
+  small, budgeted, approval-gated changes on an App Work and follows each one until it is live.
+autoBuildWorks: false
+suggestedAgentTemplates:
+  - starter-coder
+tags:
+  - app-works
+  - open-source
+  - weekly

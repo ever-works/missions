@@ -34,6 +34,17 @@
       "missionPath": "templates/weekly-trend-digest/mission.yml",
       "briefPath": "templates/weekly-trend-digest/BRIEF.md",
       "readmePath": "templates/weekly-trend-digest/README.md"
+    },
+    {
+      "slug": "build-on-open-source-app",
+      "title": "Build on an open-source app",
+      "summary": "Build my own product for my business on top of an open-source app I already run: every Monday it files up to two small, budgeted, approval-gated changes on an App Work and follows each one until it is live.",
+      "type": "SCHEDULED",
+      "schedule": "0 8 * * 1",
+      "tags": ["app-works", "open-source", "weekly"],
+      "missionPath": "templates/build-on-open-source-app/mission.yml",
+      "briefPath": "templates/build-on-open-source-app/BRIEF.md",
+      "readmePath": "templates/build-on-open-source-app/README.md"
     }
   ]
 }

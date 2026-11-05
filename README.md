@@ -24,6 +24,7 @@ templates/
     README.md                     # human-readable description
   content-engine/
   weekly-trend-digest/
+  build-on-open-source-app/      # APW-08: weekly changes on an App Work (runtime manifest: ever-works/build-on-open-source-app-mission-template)
 manifest.json                     # auto-built index the platform reads first
 ```
 
